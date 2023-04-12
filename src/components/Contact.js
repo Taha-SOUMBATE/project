@@ -12,11 +12,14 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setName("");
+    setUserEmail("");
+    setMessage("");
     emailjs
       .sendForm("service_ljql5r8", "template_zkrhii4", form.current, "XLS4AhdHMRsqg0QSS")
       .then(() => {
         toast.success('Successfully toasted!');
+        
       })
       .catch(() => {
         toast.error("Le mail n'est envoyé", {
