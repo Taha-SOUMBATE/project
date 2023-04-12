@@ -1,0 +1,35 @@
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+.dark-mode .btn {
+  background-color: #1a6aa2;
+  outline: 3px solid white;
+  color: white;
+}
+.dark-mode .btn:hover{
+  background-color: #1a6aa2;
+  outline: 5px double white;
+  color: white;
+  
+}
+.dark-mode .card {
+  background-color: rgb(38, 38, 38);
+}
+.dark-mode .link {
+  color: black;
+}
+.dark-mode .titel {
+  background-color: white;
+  color: #1a6aa2;
+}
+.dark-mode .memu .link {
+  color: #1a6aa2;
+}
+.dark-mode form {
+  background-color: rgb(47, 47, 47);
+  padding: 15px 10px;
+  border: 10px double white;
+  border-radius: 10px;
+  margin-right:50px ;
+}
